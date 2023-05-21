@@ -135,7 +135,7 @@ class ConfigHandler:
         config.defaults = _ConfigDefaults(
             bracket_type=bracket_type,
             rip_credit=rip_credit,
-            rip_mail=rip_email,
+            rip_email=rip_email,
             ch_add_c_prefix=ch_add_c_prefix,
             ch_special_tag=ch_special_tag,
             rls_pub_type=rls_pub_type,
