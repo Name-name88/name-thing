@@ -9,8 +9,8 @@ BracketTypeT = Literal["square", "round", "curly"]
 
 class _ConfigDefaultsT(TypedDict, total=False):
     bracket_type: BracketTypeT
-    ripper_credit: str
-    ripper_email: str
+    rip_credit: str
+    rip_email: str
 
 
 class _ConfigExecutableT(TypedDict, total=False):
