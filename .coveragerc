@@ -1,0 +1,28 @@
+[run] 
+
+ branch = True 
+
+  
+
+ [paths] 
+
+ source = 
+
+         nn/ 
+
+          
+
+ [report] 
+
+ omit = 
+
+         nn/**/__init__.py 
+
+         nn/cli/*.py 
+
+         nn/_ntypes.py 
+
+         nn/cmd.py 
+
+
+         nn/**/constants.py
