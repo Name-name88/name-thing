@@ -246,7 +246,7 @@ class MImage:
         return not isinstance(self.__accessor, Path)
 
 
-class MangaArchive:
+class MArchive:
     """
     Wrapper for multiple archive format and folder.
     Allow simple access to some property, and access to read
