@@ -30,9 +30,9 @@ def _check_defaults_inquire_validator(text: str):
 
 
 def _loop_defaults_bracket_type(config: config.Config) -> config.Config:
-    choice_round = term.ConsoleChoice("round", "Round bracket type -> (nao)")
-    choice_square = term.ConsoleChoice("square", "Square bracket type -> [nao]")
-    choice_curly = term.ConsoleChoice("curly", "Curly bracket type -> {nao}")
+    choice_round = term.ConsoleChoice("round", "Round bracket type -> (bob)")
+    choice_square = term.ConsoleChoice("square", "Square bracket type -> [bob]")
+    choice_curly = term.ConsoleChoice("curly", "Curly bracket type -> {bob}")
 
     default_idx = _default_bracket_index.index(config.defaults.bracket_type)
     choices = [choice_round, choice_square, choice_curly]
